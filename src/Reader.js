@@ -653,8 +653,8 @@ class Reader extends EventEmitter {
 			case TAG_ISO_14443_3:
 				return this.handle_Iso_14443_3_Tag();
 
-			case TAG_ISO_14443_4:
-				return this.handle_Iso_14443_4_Tag();
+			//case TAG_ISO_14443_4:
+				//return this.handle_Iso_14443_4_Tag();
 
 			default:
 				return this.handle_Iso_14443_3_Tag();
